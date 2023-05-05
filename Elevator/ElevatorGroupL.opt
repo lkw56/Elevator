@@ -7,9 +7,9 @@ BEGIN
   Bars:=6;
   Bar[0]:=0;
   Bar[1]:=59415;
-  Bar[2]:=59414;
-  Bar[3]:=59416;
-  Bar[4]:=59412;
+  Bar[2]:=59416;
+  Bar[3]:=59412;
+  Bar[4]:=59414;
   Bar[5]:=0;
   Style:=0;
   ExStyle:=0;
@@ -181,8 +181,8 @@ BEGIN
  Item[3]:=28;
  Item[4]:=37;
  ItemCount:=5;
- Sumcheck:=78;
- Selected:=35;
+ Sumcheck:=84;
+ Selected:=55;
 END;
 Frame[0]:=
 BEGIN
@@ -230,9 +230,9 @@ BEGIN
 END;
 Frame[2]:=
 BEGIN
- Norm:="0000 0000 0388 0585";
+ Norm:="0052 0052 0498 0641";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
  Type:=1;
  Views:=
  BEGIN
@@ -244,9 +244,9 @@ BEGIN
 END;
 Frame[3]:=
 BEGIN
- Norm:="0052 0052 0498 0641";
+ Norm:="0000 0000 0388 0585";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
  Type:=1;
  Views:=
  BEGIN
@@ -260,13 +260,14 @@ Frame[4]:=
 BEGIN
  Norm:="0026 0026 0472 0615";
  Min:="-001 -001";
- Path:="H:\ENMT Lab\Elevator-main\Elevator-main\Elevator\ElevatorGroupL.cxp";
+ Path:="\\file\Usersl$\lkw56\Home\My Documents\Elevator\ElevatorGroupL.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=40;
    Mag:=1;
    Extra:=
    BEGIN
@@ -287,6 +288,26 @@ BEGIN
 END;
 Frame[5]:=
 BEGIN
+ Norm:="0000 0000 1460 0463";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Encoder!Encoder";
+ Type:=10;
+ Ysplit:=141;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[6]:=
+BEGIN
  Norm:="0104 0104 1564 0567";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
@@ -300,7 +321,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[7]:=
 BEGIN
  Norm:="0208 0208 1590 0780";
  Min:="-001 -001";
@@ -320,11 +341,27 @@ BEGIN
   nViews:=2;
  END;
 END;
-Frame[7]:=
+Frame[8]:=
 BEGIN
- Norm:="0000 0000 1460 0463";
+ Norm:="0130 0130 1590 0593";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Encoder!Encoder";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=14;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0000 0000 1406 0463";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Setup!Setup";
  Type:=10;
  Ysplit:=141;
  Views:=
@@ -340,23 +377,7 @@ BEGIN
   nViews:=2;
  END;
 END;
-Frame[8]:=
-BEGIN
- Max:=true;
- Norm:="0130 0130 1590 0593";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=25;
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=9;
+nFrames:=10;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
