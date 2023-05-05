@@ -53,7 +53,7 @@ BEGIN
   BarID:=59414;
   Pos:="964 5";
   Docking:=1;
-  MRUDockID:=59422;
+  MRUDockID:=0;
   MRUDockPos:="964 5 1920 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
@@ -128,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 246 671";
+  MRUDockPos:="0 -2 300 671";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="246 673";
+  MRUVertDock:="300 673";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -179,25 +179,12 @@ BEGIN
  Item[1]:=2;
  Item[2]:=27;
  Item[3]:=28;
- ItemCount:=4;
- Sumcheck:=84;
+ Item[4]:=37;
+ ItemCount:=5;
+ Sumcheck:=78;
  Selected:=35;
 END;
 Frame[0]:=
-BEGIN
- Norm:="0000 0000 0388 0585";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
 BEGIN
  Norm:="0156 0156 1616 0619";
  Min:="-001 -001";
@@ -211,7 +198,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[2]:=
+Frame[1]:=
 BEGIN
  Norm:="0078 0078 0524 0667";
  Min:="-001 -001";
@@ -241,11 +228,39 @@ BEGIN
   nViews:=1;
  END;
 END;
+Frame[2]:=
+BEGIN
+ Norm:="0000 0000 0388 0585";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
 Frame[3]:=
+BEGIN
+ Norm:="0052 0052 0498 0641";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
 BEGIN
  Norm:="0026 0026 0472 0615";
  Min:="-001 -001";
- Path:="\\file\Usersl$\lkw56\Home\My Documents\Elevator\ElevatorGroupL.cxp";
+ Path:="H:\ENMT Lab\Elevator-main\Elevator-main\Elevator\ElevatorGroupL.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
@@ -270,44 +285,19 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[4]:=
-BEGIN
- Norm:="0026 0026 1486 0489";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Door_Check!Door_Check";
- Type:=10;
- Ysplit:=141;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
 Frame[5]:=
 BEGIN
- Norm:="0000 0000 1460 0463";
+ Norm:="0104 0104 1564 0567";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Encoder!Encoder";
- Type:=10;
- Ysplit:=141;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
+   Yscroll:=4;
   END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
+  nViews:=1;
  END;
 END;
 Frame[6]:=
@@ -332,34 +322,25 @@ BEGIN
 END;
 Frame[7]:=
 BEGIN
- Norm:="0104 0104 1564 0567";
+ Norm:="0000 0000 1460 0463";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
- Type:=1;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Encoder!Encoder";
+ Type:=10;
+ Ysplit:=141;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=2;
+   Mag:=1;
   END;
-  nViews:=1;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
  END;
 END;
 Frame[8]:=
-BEGIN
- Norm:="0052 0052 0498 0641";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[9]:=
 BEGIN
  Max:=true;
  Norm:="0130 0130 1590 0593";
@@ -370,11 +351,12 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=25;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=10;
+nFrames:=9;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
