@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T18:46:20.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="6rbMwQxLQK_ezupsU8D-" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T18:46:37.486Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OXMROlnebfxeLm9ntwpQ" version="21.3.2" type="github">
   <diagram name="ページ1" id="rUbex1x3FdP54zc6fJcI">
     <mxGraphModel dx="2049" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -107,7 +107,7 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-69" target="txSLlDW2Fo_miSAW73bg-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-69" value="Not on the back (or no&lt;br&gt;enough distance to decelarate)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-69" value="Not on the back (or&lt;br&gt;enough distance to decelarate)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="840" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-71" target="txSLlDW2Fo_miSAW73bg-51" edge="1">
