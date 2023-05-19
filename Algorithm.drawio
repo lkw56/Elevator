@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T18:27:54.226Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="at1p-q7Oi67Gt7ruTegE" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T18:34:43.860Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="erJ1sAPKRql9HEW0JGpa" version="21.3.2" type="github">
   <diagram name="ページ1" id="rUbex1x3FdP54zc6fJcI">
-    <mxGraphModel dx="2049" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2150" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,7 +42,17 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-39" value="Stop by the floor&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="1440" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-40" value="Arrived at the requested position&lt;br&gt;Change the direction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-40" target="txSLlDW2Fo_miSAW73bg-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="1540" />
+              <mxPoint x="-160" y="1540" />
+              <mxPoint x="-160" y="440" />
+              <mxPoint x="400" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-40" value="Arrived at the requested position&lt;br&gt;Change the DIRECTION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1440" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-46">
@@ -125,6 +135,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-78" target="txSLlDW2Fo_miSAW73bg-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="440" />
+              <mxPoint x="400" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-78" value="DATOUR" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="840" y="600" width="240" height="80" as="geometry" />
         </mxCell>
@@ -136,6 +154,27 @@
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-86" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="680" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-88" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1330" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-89" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-91" target="txSLlDW2Fo_miSAW73bg-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-91" value="Move the cabin to the first floor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-92" target="txSLlDW2Fo_miSAW73bg-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-92" target="txSLlDW2Fo_miSAW73bg-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="txSLlDW2Fo_miSAW73bg-92" value="Any button is not pushed&lt;br&gt;for n seconds" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
