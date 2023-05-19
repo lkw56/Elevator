@@ -7,9 +7,9 @@ BEGIN
   Bars:=6;
   Bar[0]:=0;
   Bar[1]:=59415;
-  Bar[2]:=59416;
-  Bar[3]:=59412;
-  Bar[4]:=59414;
+  Bar[2]:=59414;
+  Bar[3]:=59416;
+  Bar[4]:=59412;
   Bar[5]:=0;
   Style:=0;
   ExStyle:=0;
@@ -51,10 +51,10 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Pos:="964 5";
+  Pos:="644 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="964 5 1920 185";
+  MRUDockPos:="644 5 1280 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="956 180";
+  MRUHorzDock:="636 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -76,10 +76,10 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="716 5";
+  Pos:="476 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="716 5 1424 185";
+  MRUDockPos:="476 5 944 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -88,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="708 180";
+  MRUHorzDock:="468 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -104,7 +104,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 710 185";
+  MRUDockPos:="1 5 470 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -113,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="709 180";
+  MRUHorzDock:="469 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 671";
+  MRUDockPos:="0 -2 300 615";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 673";
+  MRUVertDock:="300 617";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -152,7 +152,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 958 185";
+  MRUDockPos:="1 5 638 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -161,7 +161,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="957 180";
+  MRUHorzDock:="637 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -171,7 +171,7 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1920 1080";
+ Screen:="1280 1024";
 END;
 ProjectTree:=
 BEGIN
@@ -181,12 +181,12 @@ BEGIN
  Item[3]:=43;
  Item[4]:=52;
  ItemCount:=5;
- Sumcheck:=117;
- Selected:=50;
+ Sumcheck:=119;
+ Selected:=65;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0078 0078 1484 0541";
+ Norm:="0078 0078 1378 0541";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT!ELEVATOR_PROJECT.Symbols";
  Type:=3;
@@ -215,71 +215,7 @@ BEGIN
 END;
 Frame[1]:=
 BEGIN
- Norm:="0078 0078 1484 0541";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Setup!Setup";
- Type:=10;
- Ysplit:=141;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Mag:=1;
-  END;
-  View[1]:=
-  BEGIN
-   Mag:=1;
-  END;
-  nViews:=2;
- END;
-END;
-Frame[2]:=
-BEGIN
- Norm:="0156 0156 1562 0619";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.STATE_MACHINE!STATE_MACHINE";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=13;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0130 0130 1536 0593";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.SIMULATOR!SIMULATOR";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=93;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0000 0000 0585 0270";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.ELEVATOR_SETUP!ELEVATOR_SETUP";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0026 0026 1432 0489";
+ Norm:="0026 0026 1326 0489";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Elevator_Move!Elevator_Move";
  Type:=10;
@@ -297,18 +233,38 @@ BEGIN
   nViews:=2;
  END;
 END;
-Frame[6]:=
+Frame[2]:=
 BEGIN
- Norm:="0104 0104 1510 0567";
+ Norm:="0130 0130 0922 0563";
  Min:="-001 -001";
- Path:="\\file\Userss$\sse100\Home\Downloads\Elevator-main (1)\Elevator-main\Elevator\ElevatorGroupL.cxp";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Derive!Derive";
+ Type:=10;
+ Ysplit:=131;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[3]:=
+BEGIN
+ Norm:="0104 0104 1404 0567";
+ Min:="-001 -001";
+ Path:="\\file\Usersl$\lkw56\Home\My Documents\Elevator\ElevatorGroupL.cxp";
  Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
  Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=95;
+   Yscroll:=84;
    Mag:=1;
    Extra:=
    BEGIN
@@ -322,15 +278,101 @@ BEGIN
     Width[4]:=84;
     Width[5]:=48;
     Width[6]:=200;
-    SortAscending:=false;
+    SortCol:=2;
    END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Norm:="0078 0078 1378 0541";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Setup!Setup";
+ Type:=10;
+ Ysplit:=141;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0182 0182 0974 0615";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Setup.Sections.setup!setup";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=22;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0130 0130 1430 0593";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=52;
   END;
   nViews:=1;
  END;
 END;
 Frame[7]:=
 BEGIN
- Norm:="0000 0000 1406 0463";
+ Norm:="0156 0156 0948 0589";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Ele_speed_calc.Sections.Calculate_speed!Calculate_speed";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=24;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
+BEGIN
+ Norm:="0000 0000 0792 0433";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Integrate!Integrate";
+ Type:=10;
+ Ysplit:=131;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  View[1]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=2;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0000 0000 1300 0463";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Function Blocks.Ele_speed_calc!Ele_speed_calc";
  Type:=10;
@@ -348,23 +390,7 @@ BEGIN
   nViews:=2;
  END;
 END;
-Frame[8]:=
-BEGIN
- Max:=true;
- Norm:="0130 0130 1430 0593";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.ELEVATOR_PROJECT.Sections.PROGRAM!PROGRAM";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=79;
-  END;
-  nViews:=1;
- END;
-END;
-nFrames:=9;
+nFrames:=10;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
