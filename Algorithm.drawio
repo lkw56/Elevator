@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-19T18:41:48.484Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="Yl2HVv44x50URojZ8NzU" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-19T18:44:57.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="t03njL300N7u_hoI-m6x" version="21.3.2" type="github">
   <diagram name="ページ1" id="rUbex1x3FdP54zc6fJcI">
     <mxGraphModel dx="2049" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,6 +175,15 @@
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-92" value="Any button is not pushed&lt;br&gt;for n seconds" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="480" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uoxsrH5T7CtDxWYmbQ-v-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;All the queues are going to be divided&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="310" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uoxsrH5T7CtDxWYmbQ-v-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uoxsrH5T7CtDxWYmbQ-v-1" target="txSLlDW2Fo_miSAW73bg-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="350" as="sourcePoint" />
+            <mxPoint x="940" y="300" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
