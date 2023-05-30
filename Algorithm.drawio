@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:12:45.179Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="DWLNJlw-EN887dvfGFKo" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T08:17:45.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="BOtx-VkEMmQPihFXCbFJ" version="21.3.4" type="github">
   <diagram name="ページ1" id="rUbex1x3FdP54zc6fJcI">
     <mxGraphModel dx="1667" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,7 +63,7 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-46" value="Move towards the request position" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1340" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-51" value="Set the furthest DETOUR&amp;nbsp;&lt;br&gt;to the request position" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-51" value="Set the furthest DETOUR floor &lt;br&gt;to the request position" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1220" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-54" edge="1">
@@ -74,7 +74,7 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-54" target="txSLlDW2Fo_miSAW73bg-62" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-54" value="Any Button is pushed" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-54" value="Request" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="600" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-62" target="txSLlDW2Fo_miSAW73bg-68" edge="1">
@@ -83,7 +83,7 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-62" target="txSLlDW2Fo_miSAW73bg-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-62" value="No DETOUR&lt;br&gt;QUEUE" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-62" value="Empty DETOUR&lt;br&gt;Nonempty QUEUE" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="600" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-65" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -98,7 +98,7 @@
         <mxCell id="EEc2jsLktgFO0VpFb_Zl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-68" target="txSLlDW2Fo_miSAW73bg-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-68" value="Same direction to&lt;br&gt;elevator&#39;s DIRECTION" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-68" value="Same direction as&lt;br&gt;elevator&#39;s DIRECTION" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="800" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-69" target="txSLlDW2Fo_miSAW73bg-71" edge="1">
@@ -107,7 +107,7 @@
         <mxCell id="EEc2jsLktgFO0VpFb_Zl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-69" target="txSLlDW2Fo_miSAW73bg-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-69" value="Not on the back (or&lt;br&gt;enough distance to decelarate)" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-69" value="Over a floor&#39;s distance away" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="920" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-71" target="txSLlDW2Fo_miSAW73bg-51" edge="1">
@@ -139,7 +139,7 @@
         <mxCell id="zZDKoPpqPBnbhxBXAcyl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-78" target="txSLlDW2Fo_miSAW73bg-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-78" value="DETOUR" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-78" value="Nonempty DETOUR" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="600" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-80" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -169,7 +169,7 @@
         <mxCell id="EEc2jsLktgFO0VpFb_Zl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-92" target="txSLlDW2Fo_miSAW73bg-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-92" value="No request within n seconds" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-92" value="Request within n seconds" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="480" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="uoxsrH5T7CtDxWYmbQ-v-3" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
