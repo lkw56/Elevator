@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:57:43.615Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="kEBLZ9ynrN7sgnrPNcsB" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T09:50:41.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="ngYfVSjddj5KtmrWnBc9" version="21.3.4" type="github">
   <diagram name="ページ1" id="rUbex1x3FdP54zc6fJcI">
-    <mxGraphModel dx="2927" dy="1076" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3452" dy="1345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,55 +16,17 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Request position is always updated by further request and old request position is pushed to detour.(detour takes higher priority than requested position.)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry y="280" width="800" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="txSLlDW2Fo_miSAW73bg-46" edge="1" source="txSLlDW2Fo_miSAW73bg-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="1300" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-38" target="txSLlDW2Fo_miSAW73bg-39" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-38" target="txSLlDW2Fo_miSAW73bg-40" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-38" value="If more detours" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1430" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-39" target="txSLlDW2Fo_miSAW73bg-46" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="1440" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-40" y="1590" />
-              <mxPoint x="-40" y="1360" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-39" value="Stop at closest DETOUR floor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="1550" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-40" target="txSLlDW2Fo_miSAW73bg-92" edge="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="zZDKoPpqPBnbhxBXAcyl-18" target="txSLlDW2Fo_miSAW73bg-92" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="1670" />
-              <mxPoint x="-160" y="1670" />
+              <mxPoint x="400" y="1680" />
+              <mxPoint x="-160" y="1680" />
               <mxPoint x="-160" y="440" />
               <mxPoint x="400" y="440" />
             </Array>
+            <mxPoint x="400" y="1630" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-40" value="Arrived at the requested position&lt;br&gt;Change elevator DIRECTION" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1550" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-46" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="1430" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-46" value="Move towards the request position" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1320" width="240" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-51" value="Set the furthest DETOUR floor &lt;br&gt;to the request position" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="1190" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-54" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -110,18 +72,21 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-69" value="Over a floor&#39;s distance away" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="920" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-71" target="txSLlDW2Fo_miSAW73bg-51" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="txSLlDW2Fo_miSAW73bg-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-71" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1190" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-71" value="Push/Move the request to DETOUR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1040" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-72" target="txSLlDW2Fo_miSAW73bg-51" edge="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-72" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="680" y="1130" />
               <mxPoint x="400" y="1130" />
             </Array>
+            <mxPoint x="400" y="1190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-72" value="Push/Move the request to QUEUE" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -136,8 +101,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zZDKoPpqPBnbhxBXAcyl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-78" target="txSLlDW2Fo_miSAW73bg-51">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="txSLlDW2Fo_miSAW73bg-78" target="zZDKoPpqPBnbhxBXAcyl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1230" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-78" value="Nonempty DETOUR" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="840" y="600" width="240" height="80" as="geometry" />
@@ -150,12 +117,6 @@
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-86" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="680" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-88" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="230" y="1440" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-89" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1500" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-91" target="txSLlDW2Fo_miSAW73bg-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -195,6 +156,45 @@
         </mxCell>
         <mxCell id="uoxsrH5T7CtDxWYmbQ-v-8" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="zZDKoPpqPBnbhxBXAcyl-2" vertex="1">
           <mxGeometry x="266" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZDKoPpqPBnbhxBXAcyl-9" target="zZDKoPpqPBnbhxBXAcyl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-9" value="Set closest DETOUR floor to Destination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="656.7" y="1429.2" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-10" value="Set the furthest DETOUR floor &lt;br&gt;to the final position" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1190" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZDKoPpqPBnbhxBXAcyl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1300" as="sourcePoint" />
+            <mxPoint x="400.0000000000002" y="1320.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZDKoPpqPBnbhxBXAcyl-14" target="zZDKoPpqPBnbhxBXAcyl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZDKoPpqPBnbhxBXAcyl-14" target="zZDKoPpqPBnbhxBXAcyl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-14" value="If more detours" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1315.2" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="zZDKoPpqPBnbhxBXAcyl-15" target="zZDKoPpqPBnbhxBXAcyl-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-15" value="Set final position to Destination" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1429.2" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-16" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390.70000000000005" y="1390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-17" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1355.2" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zZDKoPpqPBnbhxBXAcyl-18" value="Arrived at the requested position&lt;br&gt;Change elevator DIRECTION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="279.99999999999994" y="1550" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
