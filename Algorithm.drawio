@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:17:45.411Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="BOtx-VkEMmQPihFXCbFJ" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T08:20:17.306Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="VW5TMRhRnkk2S290bRMC" version="21.3.4" type="github">
   <diagram name="ページ1" id="rUbex1x3FdP54zc6fJcI">
-    <mxGraphModel dx="1667" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1782" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,7 +27,7 @@
         <mxCell id="txSLlDW2Fo_miSAW73bg-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-38" target="txSLlDW2Fo_miSAW73bg-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-38" value="If detour exist" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-38" value="If more detours" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1460" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-39" target="txSLlDW2Fo_miSAW73bg-46" edge="1">
@@ -39,7 +39,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-39" value="Stop by the floor&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-39" value="Stop at closest DETOUR floor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry y="1580" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-40" target="txSLlDW2Fo_miSAW73bg-92" edge="1">
@@ -52,7 +52,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="txSLlDW2Fo_miSAW73bg-40" value="Arrived at the requested position&lt;br&gt;Change the DIRECTION" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="txSLlDW2Fo_miSAW73bg-40" value="Arrived at the requested position&lt;br&gt;Change elevator DIRECTION" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="1580" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="txSLlDW2Fo_miSAW73bg-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="txSLlDW2Fo_miSAW73bg-46" edge="1">
